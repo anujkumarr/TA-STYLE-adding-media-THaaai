@@ -1,0 +1,274 @@
+CSS reset
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+	margin:0;
+	padding:0;
+}
+html,body {
+	margin:0;
+	padding:0;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+fieldset,img { 
+  border:0;
+}
+input{
+	border:1px solid #b0b0b0;
+	padding:3px 5px 4px;
+	color:#979797;
+	width:190px;
+}
+address,caption,cite,code,dfn,th,var {
+	font-style:normal;
+	font-weight:normal;
+}
+ol,ul {
+  list-style:none;
+}
+caption,th {
+  text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size:100%;
+	font-weight:normal;
+}
+q:before,q:after {
+  content:'';
+}
+abbr,acronym { border:0;
+}
+ 
+
+
+/* Custom styles of page */
+
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+}
+body{
+  line-height: 1.5;
+}
+.container{
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0px 40px;
+}
+.flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header{
+  position:absolute;
+  width: 100%;
+}
+.header{
+  color: rgb(255, 255, 255);
+  padding-top: 20px;
+ 
+}
+.header h3{
+  font-size: 32px;
+  font-weight: 700;
+}
+.nav a, .social .fab {
+  color: white;
+  margin-right: 20px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+}
+.nav a:hover{
+  color: #e60000;
+}
+.btn{
+  background-color: rgb(207,55,50);
+  padding: 14px;
+  border-radius: 30px;
+  margin-left: 10px;
+}
+.sub-header{
+  background: linear-gradient( to right, rgba(76,139,217,0.7), rgba(135,234,147,0.9)),  url(../home-bg.jpg);
+  background-repeat:no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 100vh;
+}
+.position{
+  position: relative;
+  top: 150px;
+}
+.head-text, .video{
+  width: 40%;
+  height: 300px;
+}
+.head-text h1{
+  font-size: 40px;
+  font-weight: 900;
+  color: white;
+}
+.btn-text{
+  margin-top: 40px;
+}
+.btn-two{
+  background: linear-gradient(rgba(76,139,217,0), rgba(135,234,147,0));
+  border: 2px solid white;
+  font-size: 18px;
+  color: white;
+  padding: 14px 30px;
+}
+.btn-text{
+  color: white;
+}
+.contact{
+  margin-right: 100px;
+  font-weight: 700;
+}
+.dot{
+  justify-content: flex-start;
+}
+.small-box{
+  width: 10px;
+  height: 10px;
+  background-color: gray;
+  margin-left: 10px;
+}
+.width{
+  width: 30%;
+}
+.header-two h3{
+  font-size: 32px ;
+}
+.header-two p{
+  color: #7c7575;
+  margin-top: 10px;
+}
+
+.growth{
+  background: black;
+  width: 85%;
+  height: 4px;
+}
+.growth-two{
+  width: 90%;
+}
+.growth-three{
+  width: 75%;
+}
+.growth-four{
+  width: 70%;
+}
+.bar{
+  justify-content: space-between;
+  font-size: 20px;
+  padding-top:30px;
+}
+.about{
+  width: 100%;
+}
+.gray-bg{
+  background-color: rgb(239,239,239);
+}
+.blog{
+  flex-direction: column;
+  font-size: 24px;
+  margin-top: -23px;
+}
+.white-box{
+  width: 50%;
+  background-color: white;
+  margin: 30px 20px;
+}
+.white-box img{
+  width: 50%;
+}
+.date{
+  color: red;
+}
+.content{
+  margin-left: 30px;
+}
+.content h3{
+  font-size: 24px;
+  text-transform: capitalize;
+}
+.content p{
+  color: rgb(165,165,165);
+  font-size: 20px;
+}
+.btn-three{
+  margin-top: 80px;
+  background-color: rgb(239,239,239);
+  display: inline-block;
+  padding: 10px 20px;
+}
+.margin{
+  margin: 40px 0px;
+}
+.blog-two{
+  margin-top: 50px;
+}
+.gallery img{
+  width: 25%;
+  padding-right: 20px;
+  margin-top: 30px;
+}
+.color-bg{
+  width: 100%;
+  background: linear-gradient(to right,rgb(23,121,224), rgb(119,229,99));
+  padding-bottom: 40px;
+}
+.blog-three, .blog-three h3{
+  margin-top: 40px  ;
+}
+.input-box{
+  width: 60%;
+  border-radius: 10px;
+  margin-top: 40px;
+  
+}
+input{
+  width: 96%;
+  padding: 20px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+textarea{
+  width: 98%;
+  padding: 10px;
+  border-radius: 10px;
+}
+.btn-four{
+  width: 30%;
+  text-align: center;
+}
+.map{
+  padding-right: 50px;
+}
+.map iframe{
+  width:300px;
+  height: 300px;
+  border-radius: 50%;
+}
+.footer{
+  background-color: rgb(29,29,29);
+  color: white;
+  padding: 60px 0px;
+
+}
+.last-sec h3{
+  font-size: 32px;
+}
+.last-sec{
+  justify-content:space-between;
+  align-items: baseline;
+  padding-bottom: 40px;
+}
+.copy-right{
+  margin-top: 30px;
+  justify-content:space-between;
+}
